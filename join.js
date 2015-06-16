@@ -2,7 +2,7 @@
 // @name JesterEE's Steam Monster Minigame JoinGame Script
 // @namespace  https://github.com/jesteree/SteamMonsterMinigameJoinScript
 // @description  Adds a dialog box to the Steam Monster Minigame to join a game of your choice.
-// @version    1.0
+// @version    1.1
 // @match      http://steamcommunity.com/minigame/*
 // @copyright  2015, JesterEE
 // @author  JesterEE
