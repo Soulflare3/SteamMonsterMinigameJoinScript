@@ -4,7 +4,7 @@ Adds a dialog box to the Steam Monster Minigame to join a game of your choice.
 
 #Steam Summer 2015 Monster Minigame Join Script#
 
-[![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com) [![Build Status](https://travis-ci.org/JesterEE/SteamMonsterMinigameJoinScript.svg?branch=master)](https://travis-ci.org/SteamDatabase/steamSummerMinigame)
+[![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com) [![Build Status](https://travis-ci.org/JesterEE/SteamMonsterMinigameJoinScript.svg?branch=master)](https://travis-ci.org/JesterEE/SteamMonsterMinigameJoinScript)
 
 ## Purpose ##
 
@@ -59,7 +59,7 @@ This write-up has been borrowed from [wchill](https://github.com/wchill) because
 
 This project is open-source [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) on GitHub. There are different ways you can help:
 
-- Find a Pull Request that's marked `needs testing`. Run that version of the script for a while and watch the console for errors. If there's no errors, pay attention to what the changes are doing gameplay-wise, and make sure it's doing what it's supposed to do.
+- Find a Pull Request that's marked `needs testing`. Run that version of the script and watch the console for errors. If there's no errors, pay attention to what the changes are doing, and make sure it's doing what it's supposed to do.
 - Find an Issue that's marked `help wanted`. Make the changes needed by that issue, and create a Pull Request with your enhancement or bugfix.
 - Pick an item off the TODO list, below, and implement it. When it's done (and tested and working), create a Pull Request.
 - Got an idea for an improvement that's not already listed? Code it up, test it out, then make a Pull Request when it's ready.
