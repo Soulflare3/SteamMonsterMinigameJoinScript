@@ -1,9 +1,16 @@
-## Update ##
-I pushed a commented out script since the script is not currently working.  When the script is active you will get the default landing page until I fix the issue.  Maybe today, maybe not ... SORRY!  If someone has time to investigate/fix it, please do and offer a pull request.
+# Update
+I pushed a commented out script since the script is not currently working correctly.  When the script is active you will get the default landing page until I fix the issue.  Maybe today, maybe not ... SORRY!  If someone has time to investigate/fix it, please do and offer a pull request.  See my notes in the issue tracker [here](https://github.com/JesterEE/SteamMonsterMinigameJoinScript/issues/1).
+
+Until it's fixed, I recommend using this command from the Console:
+
+<code>
+'(function(key){setInterval(function(){JoinGame(key);$J('.newmodal').remove();}, 2000)})(ROOM_KEY_HERE)'
+</code>
+
+Kudos to ZucchiniZeMinz_Live in the [ulletical](http://www.twitch.tv/ulletical) Twitch channel.
 
 # SteamMonsterMinigameJoinScript
 Adds a dialog box to the Steam Monster Minigame to join a game of your choice.
-
 
 #Steam Summer 2015 Monster Minigame Join Script#
 
