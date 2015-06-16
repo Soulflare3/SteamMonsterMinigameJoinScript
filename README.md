@@ -4,7 +4,7 @@ I pushed a commented out script since the script is not currently working correc
 Until it's fixed, I recommend using this command from the Console:
 
 <code>
-'(function(key){setInterval(function(){JoinGame(key);$J('.newmodal').remove();}, 2000)})(ROOM_KEY_HERE)'
+(function(key){setInterval(function(){JoinGame(key);$J('.newmodal').remove();}, 2000)})(ROOM_KEY_HERE)
 </code>
 
 Kudos to ZucchiniZeMinz_Live in the [ulletical](http://www.twitch.tv/ulletical) Twitch channel.
