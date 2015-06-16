@@ -2,7 +2,7 @@
 Adds a dialog box to the Steam Monster Minigame to join a game of your choice.
 
 
-#Steam Summer 2015 Monster Minigame AutoScript#
+#Steam Summer 2015 Monster Minigame Join Script#
 
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com) [![Build Status](https://travis-ci.org/JesterEE/SteamMonsterMinigameJoinScript.svg?branch=master)](https://travis-ci.org/SteamDatabase/steamSummerMinigame)
 
@@ -21,12 +21,12 @@ This write-up has been borrowed from [wchill](https://github.com/wchill) because
 
 ### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) ###
 
-1. Navigate to `RAWLINK`.
+1. Navigate to `https://raw.githubusercontent.com/JesterEE/SteamMonsterMinigameJoinScript/master/join.js`.
 2. When the editor has loaded, click `Install` (*NOT* `Process with Chrome`).
 
 ### [Greasemonkey](https://addons.mozilla.org/en-us/firefox/addon/greasemonkey/) ###
 
-1. Navigate to `RAWLINK`.
+1. Navigate to `https://raw.githubusercontent.com/JesterEE/SteamMonsterMinigameJoinScript/master/join.js`.
 2. Right click on the page, and click `Save Page As`.
 3. While Firefox is still open, open a File Manager of any sort, and navigate to the directory you saved the script.
 4. Drag & drop the script file onto the Firefox window.
@@ -35,21 +35,21 @@ This write-up has been borrowed from [wchill](https://github.com/wchill) because
 ### Manual ###
 
 ##### Chrome #####
-1. Open RAWLINK
+1. Open https://raw.githubusercontent.com/JesterEE/SteamMonsterMinigameJoinScript/master/join.js
 2. Select All, Copy.
 3. Navigate to `http://steamcommunity.com/minigame/` and join or start a game.
 4. Press `Ctrl + Shift + J`.
 5. Paste into the javascript input, and hit `Enter`.
 
 ##### Firefox #####
-1. Open RAWLINK
+1. Open https://raw.githubusercontent.com/JesterEE/SteamMonsterMinigameJoinScript/master/join.js
 2. Select All, Copy.
 3. Navigate to `http://steamcommunity.com/minigame/` and join or start a game.
 4. Press `Ctrl + Shift + K`.
 5. Paste into the javascript input, and hit `Enter`.
 
 ##### Internet Explorer / Microsoft Edge #####
-1. Open RAWLINK
+1. Open https://raw.githubusercontent.com/JesterEE/SteamMonsterMinigameJoinScript/master/join.js
 2. Select All, Copy.
 3. Navigate to `http://steamcommunity.com/minigame/` and join or start a game.
 4. Press `F12` and navigate to the `Console` tab.
