@@ -3,7 +3,8 @@
 // @namespace  https://github.com/jesteree/SteamMonsterMinigameJoinScript
 // @description  Adds a dialog box to the Steam Monster Minigame to join a game of your choice.
 // @version    1.2
-// @match      http://steamcommunity.com/minigame/*
+// @match      http://steamcommunity.com/minigame
+// @match      http://steamcommunity.com/minigame/
 // @copyright  2015, JesterEE
 // @author  JesterEE
 // @grant unsafeWindow
@@ -11,8 +12,6 @@
 // @downloadURL https://raw.githubusercontent.com/jesteree/SteamMonsterMinigameJoinScript/master/join.js
 // ==/UserScript==
 
-// This isn't working ... disabled ... for now
-/*
 ////////////////////////////////////////////////////////////////////////////////
 // CSS
 ////////////////////////////////////////////////////////////////////////////////
@@ -111,4 +110,4 @@ catch(err) {
         game_div = document.getElementsByClassName('new_game')[0].children[0]
         game_div.outerHTML = '<span class="gameidcss">Game ID: <input name="gameid_input" class="gameid2css" type="text" value="" onkeydown="javascript:JoinGame();"></span></br><a href="javascript:JoinGame();" class="main_btn"><span>Play Sucka!</span><a>'
 }
-*/
+
