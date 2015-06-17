@@ -63,7 +63,6 @@ unsafeWindow.JoinGame = function() {
 JoinThisGame( )
 };
 
-
 function JoinThisGame(  ) {
     // Removes some errors of the original JoinGame and tries to join again on those occurrences.
     // Removes all non-numeric characters from the Game ID to prevent typing mistakes/inaccuracies.
@@ -97,6 +96,15 @@ function JoinThisGame(  ) {
             );
 }
 
+//Check for Enter Key http://stackoverflow.com/a/2129405 + http://www.w3schools.com/js/js_htmldom_eventlistener.asp
+function KeyCheck(e)
+{
+    if (e.keyCode ===  13)
+    {
+     JoinGame();  
+    }
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 // Update the landing page HTML
 ////////////////////////////////////////////////////////////////////////////////
@@ -104,10 +112,11 @@ function JoinThisGame(  ) {
 var game_div;
 try {
     game_div = document.getElementsByClassName('current_game')[0].children[0]
-    game_div.outerHTML = '<span class="gameidcss">Game ID: <input name="gameid_input" class="gameid2css" type="text" value="" onkeydown="javascript:JoinGame();"></span></br><a href="javascript:JoinGame();" class="main_btn"><span>Play Sucka!</span><a><p class="start_new">or, <a href="javascript:StartNewGame();">start a new game</a></p>'
+    game_div.outerHTML = '<span class="gameidcss">Game ID: <input name="gameid_input" class="gameid2css" id="gameid_input" type="text" value=""></span></br><a href="javascript:JoinGame();" class="main_btn"><span>Play Sucka!</span><a><p class="start_new">or, <a href="javascript:StartNewGame();">start a new game</a></p>'
+    document.getElementById("gameid_input").addEventListener('keydown', KeyCheck, true);
 }
 catch(err) {
-        game_div = document.getElementsByClassName('new_game')[0].children[0]
-        game_div.outerHTML = '<span class="gameidcss">Game ID: <input name="gameid_input" class="gameid2css" type="text" value="" onkeydown="javascript:JoinGame();"></span></br><a href="javascript:JoinGame();" class="main_btn"><span>Play Sucka!</span><a>'
+    game_div = document.getElementsByClassName('new_game')[0].children[0]
+    game_div.outerHTML = '<span class="gameidcss">Game ID: <input name="gameid_input" class="gameid2css" id="gameid_input" type="text" value=""></span></br><a href="javascript:JoinGame();" class="main_btn"><span>Play Sucka!</span><a>'
+    document.getElementById("gameid_input").addEventListener('keydown', KeyCheck, true);
 }
-
